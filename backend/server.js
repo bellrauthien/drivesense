@@ -1,4 +1,3 @@
-
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
@@ -57,7 +56,7 @@ io.on('connection', (socket) => {
   });
 });
 
-// REST endpoint to receive events and broadcast them
+// Endpoint for single event
 app.post('/event', (req, res) => {
   const event = req.body;
   if (!event) {
@@ -68,6 +67,22 @@ app.post('/event', (req, res) => {
   io.emit('vehicle_event', { ...event, message });
 
   res.status(200).json({ status: 'Event broadcasted', message });
+});
+
+// Endpoint for bulk events
+app.post('/events/bulk', (req, res) => {
+  const events = req.body;
+  if (!Array.isArray(events)) {
+    return res.status(400).json({ error: 'Payload must be an array of events' });
+  }
+
+  const results = events.map(event => {
+    const message = interpretEvent(event);
+    io.emit('vehicle_event', { ...event, message });
+    return { ...event, message };
+  });
+
+  res.status(200).json({ status: 'Bulk events broadcasted', count: results.length });
 });
 
 // Root endpoint
