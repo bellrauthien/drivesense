@@ -17,25 +17,36 @@ app.use(bodyParser.json());
 
 // Function to interpret vehicle events
 function interpretEvent(event) {
-  let message = `[${event.timestamp || 'no timestamp'}] Vehicle ${event.vehicleId || 'unknown'}:`;
-  const conditions = [];
+  const vehicleId = event.vehicleId || event.vehicle_id || 'unknown';
+  const timestamp = event.timestamp || 'no timestamp';
+  const speed = event.speed !== undefined ? event.speed : event.speed_kmh;
+  const deceleration = event.deceleration;
+  const turnAngle = event.turnAngle;
 
-  if (event.speed !== undefined) {
-    if (event.speed > 120) {
-      conditions.push(`Overspeeding (${event.speed} km/h)`);
-    } else if (event.speed > 100) {
-      conditions.push(`High speed (${event.speed} km/h)`);
+  let message = `[${timestamp}] Vehicle ${vehicleId}:`;
+  const conditions = [];
+  let severity = 'low';
+
+  if (speed !== undefined) {
+    if (speed > 120) {
+      conditions.push(`Overspeeding (${speed} km/h)`);
+      severity = 'high';
+    } else if (speed > 100) {
+      conditions.push(`High speed (${speed} km/h)`);
+      if (severity !== 'high') severity = 'medium';
     } else {
-      conditions.push(`Normal speed (${event.speed} km/h)`);
+      conditions.push(`Normal speed (${speed} km/h)`);
     }
   }
 
-  if (event.deceleration !== undefined && event.deceleration < -5) {
-    conditions.push(`Harsh braking (${event.deceleration} m/s²)`);
+  if (deceleration !== undefined && deceleration < -5) {
+    conditions.push(`Harsh braking (${deceleration} m/s²)`);
+    severity = 'high';
   }
 
-  if (event.turnAngle !== undefined && Math.abs(event.turnAngle) > 45) {
-    conditions.push(`Sharp turn (${event.turnAngle}°)`);
+  if (turnAngle !== undefined && Math.abs(turnAngle) > 45) {
+    conditions.push(`Sharp turn (${turnAngle}°)`);
+    severity = 'high';
   }
 
   if (conditions.length > 0) {
@@ -44,8 +55,10 @@ function interpretEvent(event) {
     message += ' Event received';
   }
 
-  return message;
+  return { message, severity };
 }
+
+
 
 // WebSocket connection handler
 io.on('connection', (socket) => {
@@ -57,28 +70,27 @@ io.on('connection', (socket) => {
 });
 
 // Endpoint for single event
-app.post('/event', (req, res) => {
+app.post('/api/events', (req, res) => {
   const event = req.body;
   if (!event) {
     return res.status(400).json({ error: 'Invalid event payload' });
   }
-
-  const message = interpretEvent(event);
-  io.emit('vehicle_event', { ...event, message });
+  const { message, severity } = interpretEvent(event);
+  io.emit('vehicle_event', { ...event, message, severity });
 
   res.status(200).json({ status: 'Event broadcasted', message });
 });
 
 // Endpoint for bulk events
-app.post('/events/bulk', (req, res) => {
+app.post('/api/events/bulk', (req, res) => {
   const events = req.body;
   if (!Array.isArray(events)) {
     return res.status(400).json({ error: 'Payload must be an array of events' });
   }
 
   const results = events.map(event => {
-    const message = interpretEvent(event);
-    io.emit('vehicle_event', { ...event, message });
+    const { message, severity } = interpretEvent(event);
+    io.emit('vehicle_event', { ...event, message, severity });
     return { ...event, message };
   });
 
