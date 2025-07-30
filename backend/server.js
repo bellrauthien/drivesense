@@ -13,7 +13,8 @@ const io = socketIo(server, {
 });
 
 app.use(cors());
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: '10mb' }));
+
 
 // Function to interpret vehicle events
 function interpretEvent(event) {
