@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
 
@@ -18,7 +19,7 @@ function App() {
       <ul>
         {events.map((e, index) => (
           <li key={index}>
-            [{e.timestamp}] Vehicle {e.vehicleId}: {e.event}
+            {e.message || `[${e.timestamp}] Vehicle ${e.vehicleId}: (no message)`}
           </li>
         ))}
       </ul>
