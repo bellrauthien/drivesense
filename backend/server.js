@@ -26,6 +26,22 @@ function interpretEvent(event) {
   let message = `[${timestamp}] Vehicle ${vehicleId}:`;
   const conditions = [];
   let severity = 'low';
+  
+  const eventType = event.eventType || event.event_type;
+
+  if (eventType === 'harsh_braking') {
+    conditions.push('Harsh braking (event type)');
+    severity = 'high';
+  }
+  if (eventType === 'overspeeding') {
+    conditions.push('Overspeeding (event type)');
+    severity = 'high';
+  }
+  if (eventType === 'sharp_turn') {
+    conditions.push('Sharp turn (event type)');
+    severity = 'high';
+  }
+
 
   if (speed !== undefined) {
     if (speed > 120) {
