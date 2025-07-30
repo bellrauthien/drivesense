@@ -41,3 +41,8 @@ const PORT = 4000;
 server.listen(PORT, () => {
   console.log(`Backend server listening on port ${PORT}`);
 });
+
+
+app.get('/', (req, res) => {
+  res.send('Backend funcionando');
+});
