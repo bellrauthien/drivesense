@@ -1,0 +1,1002 @@
+[
+  {
+    "vehicle_id": "1760HAR",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-28T19:34:22.732317",
+    "location": {
+      "latitude": 40.398141,
+      "longitude": -3.710554
+    },
+    "speed_kmh": 101.31
+  },
+  {
+    "vehicle_id": "3264QUE",
+    "event_type": "normal",
+    "timestamp": "2025-07-28T11:40:22.732375",
+    "location": {
+      "latitude": 40.377612,
+      "longitude": -3.774981
+    },
+    "speed_kmh": 98.49
+  },
+  {
+    "vehicle_id": "3710JTB",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-24T12:04:22.732405",
+    "location": {
+      "latitude": 40.379208,
+      "longitude": -3.63479
+    },
+    "speed_kmh": 72.74
+  },
+  {
+    "vehicle_id": "1764INZ",
+    "event_type": "normal",
+    "timestamp": "2025-07-23T19:03:22.732428",
+    "location": {
+      "latitude": 40.452174,
+      "longitude": -3.603041
+    },
+    "speed_kmh": 133.47
+  },
+  {
+    "vehicle_id": "8107QLI",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-24T23:44:22.732446",
+    "location": {
+      "latitude": 40.42235,
+      "longitude": -3.669091
+    },
+    "speed_kmh": 118.78
+  },
+  {
+    "vehicle_id": "5626FSX",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-26T18:34:22.732466",
+    "location": {
+      "latitude": 40.318087,
+      "longitude": -3.866496
+    },
+    "speed_kmh": 80.12
+  },
+  {
+    "vehicle_id": "3808ZRV",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-26T19:27:22.732485",
+    "location": {
+      "latitude": 40.321162,
+      "longitude": -3.706396
+    },
+    "speed_kmh": 76.7
+  },
+  {
+    "vehicle_id": "8910YAJ",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-29T05:18:22.732502",
+    "location": {
+      "latitude": 40.485498,
+      "longitude": -3.853031
+    },
+    "speed_kmh": 52.14
+  },
+  {
+    "vehicle_id": "7512DPY",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-30T05:33:22.732519",
+    "location": {
+      "latitude": 40.359021,
+      "longitude": -3.842886
+    },
+    "speed_kmh": 99.6
+  },
+  {
+    "vehicle_id": "6126QRK",
+    "event_type": "normal",
+    "timestamp": "2025-07-28T13:44:22.732536",
+    "location": {
+      "latitude": 40.428118,
+      "longitude": -3.877627
+    },
+    "speed_kmh": 58.27
+  },
+  {
+    "vehicle_id": "7175FCO",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-23T17:14:22.732552",
+    "location": {
+      "latitude": 40.310878,
+      "longitude": -3.829304
+    },
+    "speed_kmh": 53.23
+  },
+  {
+    "vehicle_id": "8275IWO",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-26T08:09:22.732568",
+    "location": {
+      "latitude": 40.496679,
+      "longitude": -3.65385
+    },
+    "speed_kmh": 112.94
+  },
+  {
+    "vehicle_id": "7810NGV",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-26T02:49:22.732584",
+    "location": {
+      "latitude": 40.360446,
+      "longitude": -3.601781
+    },
+    "speed_kmh": 126.93
+  },
+  {
+    "vehicle_id": "4670PNX",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-28T12:57:22.732599",
+    "location": {
+      "latitude": 40.325301,
+      "longitude": -3.763425
+    },
+    "speed_kmh": 28.48
+  },
+  {
+    "vehicle_id": "9067INE",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-24T19:34:22.732615",
+    "location": {
+      "latitude": 40.495445,
+      "longitude": -3.629074
+    },
+    "speed_kmh": 80.9
+  },
+  {
+    "vehicle_id": "1973KHB",
+    "event_type": "normal",
+    "timestamp": "2025-07-29T08:43:22.732630",
+    "location": {
+      "latitude": 40.349174,
+      "longitude": -3.779533
+    },
+    "speed_kmh": 122.23
+  },
+  {
+    "vehicle_id": "8789UQE",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-29T11:47:22.732647",
+    "location": {
+      "latitude": 40.315894,
+      "longitude": -3.77014
+    },
+    "speed_kmh": 132.78
+  },
+  {
+    "vehicle_id": "4549WVR",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-26T09:31:22.732664",
+    "location": {
+      "latitude": 40.306389,
+      "longitude": -3.672035
+    },
+    "speed_kmh": 96.94
+  },
+  {
+    "vehicle_id": "3338XFM",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-27T22:47:22.732680",
+    "location": {
+      "latitude": 40.324265,
+      "longitude": -3.655924
+    },
+    "speed_kmh": 75.73
+  },
+  {
+    "vehicle_id": "3286TRK",
+    "event_type": "normal",
+    "timestamp": "2025-07-27T07:42:22.732695",
+    "location": {
+      "latitude": 40.355138,
+      "longitude": -3.702017
+    },
+    "speed_kmh": 91.05
+  },
+  {
+    "vehicle_id": "5463HKI",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-24T14:21:22.732711",
+    "location": {
+      "latitude": 40.304113,
+      "longitude": -3.883182
+    },
+    "speed_kmh": 81.86
+  },
+  {
+    "vehicle_id": "8664EZS",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-23T21:36:22.732726",
+    "location": {
+      "latitude": 40.332094,
+      "longitude": -3.667272
+    },
+    "speed_kmh": 132.12
+  },
+  {
+    "vehicle_id": "4896IAB",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-27T01:57:22.732741",
+    "location": {
+      "latitude": 40.332957,
+      "longitude": -3.607273
+    },
+    "speed_kmh": 71.87
+  },
+  {
+    "vehicle_id": "7105XBZ",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-24T03:04:22.732757",
+    "location": {
+      "latitude": 40.40418,
+      "longitude": -3.806305
+    },
+    "speed_kmh": 87.58
+  },
+  {
+    "vehicle_id": "6452DBW",
+    "event_type": "normal",
+    "timestamp": "2025-07-29T15:58:22.732773",
+    "location": {
+      "latitude": 40.426875,
+      "longitude": -3.893457
+    },
+    "speed_kmh": 135.53
+  },
+  {
+    "vehicle_id": "8778EDE",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-28T22:18:22.732789",
+    "location": {
+      "latitude": 40.330609,
+      "longitude": -3.876862
+    },
+    "speed_kmh": 86.85
+  },
+  {
+    "vehicle_id": "9038ZFY",
+    "event_type": "normal",
+    "timestamp": "2025-07-27T13:47:22.732806",
+    "location": {
+      "latitude": 40.426039,
+      "longitude": -3.83178
+    },
+    "speed_kmh": 79.73
+  },
+  {
+    "vehicle_id": "9986LWC",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-27T21:00:22.732822",
+    "location": {
+      "latitude": 40.493984,
+      "longitude": -3.885456
+    },
+    "speed_kmh": 37.45
+  },
+  {
+    "vehicle_id": "6827BHJ",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-28T21:45:22.732838",
+    "location": {
+      "latitude": 40.300414,
+      "longitude": -3.667969
+    },
+    "speed_kmh": 111.21
+  },
+  {
+    "vehicle_id": "8230ULJ",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-30T11:25:22.732855",
+    "location": {
+      "latitude": 40.320944,
+      "longitude": -3.652555
+    },
+    "speed_kmh": 71.81
+  },
+  {
+    "vehicle_id": "8951DYA",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-29T20:56:22.732873",
+    "location": {
+      "latitude": 40.369532,
+      "longitude": -3.752677
+    },
+    "speed_kmh": 127.91
+  },
+  {
+    "vehicle_id": "5559WMJ",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-23T22:47:22.732890",
+    "location": {
+      "latitude": 40.403799,
+      "longitude": -3.609132
+    },
+    "speed_kmh": 135.05
+  },
+  {
+    "vehicle_id": "8520MMU",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-28T09:08:22.732907",
+    "location": {
+      "latitude": 40.37245,
+      "longitude": -3.7609
+    },
+    "speed_kmh": 20.26
+  },
+  {
+    "vehicle_id": "5097QCL",
+    "event_type": "normal",
+    "timestamp": "2025-07-26T14:13:22.732924",
+    "location": {
+      "latitude": 40.428162,
+      "longitude": -3.755516
+    },
+    "speed_kmh": 50.73
+  },
+  {
+    "vehicle_id": "3746LUH",
+    "event_type": "normal",
+    "timestamp": "2025-07-29T18:17:22.732939",
+    "location": {
+      "latitude": 40.461859,
+      "longitude": -3.689585
+    },
+    "speed_kmh": 134.66
+  },
+  {
+    "vehicle_id": "7345RMR",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-24T18:38:22.732956",
+    "location": {
+      "latitude": 40.479649,
+      "longitude": -3.853544
+    },
+    "speed_kmh": 75.3
+  },
+  {
+    "vehicle_id": "6809WFC",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-25T04:16:22.732971",
+    "location": {
+      "latitude": 40.427189,
+      "longitude": -3.889624
+    },
+    "speed_kmh": 37.56
+  },
+  {
+    "vehicle_id": "4956TZK",
+    "event_type": "normal",
+    "timestamp": "2025-07-28T03:50:22.732985",
+    "location": {
+      "latitude": 40.370379,
+      "longitude": -3.876763
+    },
+    "speed_kmh": 78.85
+  },
+  {
+    "vehicle_id": "3711FZN",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-28T04:37:22.733001",
+    "location": {
+      "latitude": 40.397901,
+      "longitude": -3.616291
+    },
+    "speed_kmh": 60.87
+  },
+  {
+    "vehicle_id": "8162OVV",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-29T19:21:22.733018",
+    "location": {
+      "latitude": 40.401289,
+      "longitude": -3.78194
+    },
+    "speed_kmh": 24.99
+  },
+  {
+    "vehicle_id": "5623VTR",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-30T08:11:22.733033",
+    "location": {
+      "latitude": 40.336081,
+      "longitude": -3.822892
+    },
+    "speed_kmh": 109.21
+  },
+  {
+    "vehicle_id": "9569NIX",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-25T13:19:22.733050",
+    "location": {
+      "latitude": 40.360378,
+      "longitude": -3.810316
+    },
+    "speed_kmh": 115.52
+  },
+  {
+    "vehicle_id": "4189RBV",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-30T12:09:22.733065",
+    "location": {
+      "latitude": 40.456587,
+      "longitude": -3.799904
+    },
+    "speed_kmh": 135.13
+  },
+  {
+    "vehicle_id": "8761EWD",
+    "event_type": "normal",
+    "timestamp": "2025-07-30T00:35:22.733080",
+    "location": {
+      "latitude": 40.391025,
+      "longitude": -3.666717
+    },
+    "speed_kmh": 96.39
+  },
+  {
+    "vehicle_id": "7323UTJ",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-24T06:22:22.733094",
+    "location": {
+      "latitude": 40.338963,
+      "longitude": -3.64459
+    },
+    "speed_kmh": 74.14
+  },
+  {
+    "vehicle_id": "1637XHD",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-27T03:43:22.733109",
+    "location": {
+      "latitude": 40.318926,
+      "longitude": -3.856725
+    },
+    "speed_kmh": 114.36
+  },
+  {
+    "vehicle_id": "6717PZI",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-26T20:45:22.733124",
+    "location": {
+      "latitude": 40.414708,
+      "longitude": -3.872433
+    },
+    "speed_kmh": 39.15
+  },
+  {
+    "vehicle_id": "6350MXX",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-29T11:45:22.733139",
+    "location": {
+      "latitude": 40.405172,
+      "longitude": -3.618967
+    },
+    "speed_kmh": 129.96
+  },
+  {
+    "vehicle_id": "2881XWR",
+    "event_type": "normal",
+    "timestamp": "2025-07-25T16:17:22.733155",
+    "location": {
+      "latitude": 40.450264,
+      "longitude": -3.776736
+    },
+    "speed_kmh": 114.32
+  },
+  {
+    "vehicle_id": "6544JKK",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-29T15:30:22.733170",
+    "location": {
+      "latitude": 40.458807,
+      "longitude": -3.872651
+    },
+    "speed_kmh": 47.31
+  },
+  {
+    "vehicle_id": "3078MYJ",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-27T18:52:22.733185",
+    "location": {
+      "latitude": 40.473574,
+      "longitude": -3.876681
+    },
+    "speed_kmh": 85.55
+  },
+  {
+    "vehicle_id": "8489GEF",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-29T15:35:22.733203",
+    "location": {
+      "latitude": 40.436672,
+      "longitude": -3.784481
+    },
+    "speed_kmh": 134.06
+  },
+  {
+    "vehicle_id": "6534OVI",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-29T07:00:22.733220",
+    "location": {
+      "latitude": 40.465448,
+      "longitude": -3.856986
+    },
+    "speed_kmh": 34.56
+  },
+  {
+    "vehicle_id": "2188RRK",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-24T11:15:22.733237",
+    "location": {
+      "latitude": 40.303814,
+      "longitude": -3.841375
+    },
+    "speed_kmh": 59.17
+  },
+  {
+    "vehicle_id": "4405VCW",
+    "event_type": "normal",
+    "timestamp": "2025-07-30T09:02:22.733251",
+    "location": {
+      "latitude": 40.43805,
+      "longitude": -3.675005
+    },
+    "speed_kmh": 39.65
+  },
+  {
+    "vehicle_id": "7904TUQ",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-28T06:07:22.733263",
+    "location": {
+      "latitude": 40.331754,
+      "longitude": -3.746289
+    },
+    "speed_kmh": 100.64
+  },
+  {
+    "vehicle_id": "9175EVK",
+    "event_type": "normal",
+    "timestamp": "2025-07-26T09:30:22.733275",
+    "location": {
+      "latitude": 40.427553,
+      "longitude": -3.69776
+    },
+    "speed_kmh": 116.77
+  },
+  {
+    "vehicle_id": "6427HDK",
+    "event_type": "normal",
+    "timestamp": "2025-07-26T04:19:22.733291",
+    "location": {
+      "latitude": 40.439891,
+      "longitude": -3.851691
+    },
+    "speed_kmh": 41.32
+  },
+  {
+    "vehicle_id": "8673AMT",
+    "event_type": "normal",
+    "timestamp": "2025-07-26T15:15:22.733308",
+    "location": {
+      "latitude": 40.355782,
+      "longitude": -3.658016
+    },
+    "speed_kmh": 87.59
+  },
+  {
+    "vehicle_id": "3704SJN",
+    "event_type": "normal",
+    "timestamp": "2025-07-24T09:47:22.733323",
+    "location": {
+      "latitude": 40.431158,
+      "longitude": -3.627137
+    },
+    "speed_kmh": 68.92
+  },
+  {
+    "vehicle_id": "2327GMH",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-24T09:26:22.733340",
+    "location": {
+      "latitude": 40.394926,
+      "longitude": -3.637082
+    },
+    "speed_kmh": 96.93
+  },
+  {
+    "vehicle_id": "6899JJR",
+    "event_type": "normal",
+    "timestamp": "2025-07-27T20:10:22.733357",
+    "location": {
+      "latitude": 40.306914,
+      "longitude": -3.735186
+    },
+    "speed_kmh": 137.61
+  },
+  {
+    "vehicle_id": "2007ZVO",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-24T16:05:22.733374",
+    "location": {
+      "latitude": 40.416152,
+      "longitude": -3.721197
+    },
+    "speed_kmh": 43.36
+  },
+  {
+    "vehicle_id": "7611TTB",
+    "event_type": "normal",
+    "timestamp": "2025-07-24T02:19:22.733390",
+    "location": {
+      "latitude": 40.364243,
+      "longitude": -3.73206
+    },
+    "speed_kmh": 60.39
+  },
+  {
+    "vehicle_id": "9877VMC",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-23T20:04:22.733408",
+    "location": {
+      "latitude": 40.387656,
+      "longitude": -3.758086
+    },
+    "speed_kmh": 95.21
+  },
+  {
+    "vehicle_id": "7000KKI",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-28T16:06:22.733427",
+    "location": {
+      "latitude": 40.466232,
+      "longitude": -3.867278
+    },
+    "speed_kmh": 73.94
+  },
+  {
+    "vehicle_id": "3975OQR",
+    "event_type": "normal",
+    "timestamp": "2025-07-24T17:58:22.733444",
+    "location": {
+      "latitude": 40.310953,
+      "longitude": -3.663265
+    },
+    "speed_kmh": 75.7
+  },
+  {
+    "vehicle_id": "6762CQY",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-29T07:05:22.733463",
+    "location": {
+      "latitude": 40.489158,
+      "longitude": -3.829534
+    },
+    "speed_kmh": 110.99
+  },
+  {
+    "vehicle_id": "3782FPL",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-25T04:12:22.733480",
+    "location": {
+      "latitude": 40.394615,
+      "longitude": -3.723953
+    },
+    "speed_kmh": 83.22
+  },
+  {
+    "vehicle_id": "3638QWU",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-30T13:30:22.733532",
+    "location": {
+      "latitude": 40.491029,
+      "longitude": -3.645433
+    },
+    "speed_kmh": 81.86
+  },
+  {
+    "vehicle_id": "5509UYW",
+    "event_type": "normal",
+    "timestamp": "2025-07-25T00:32:22.733551",
+    "location": {
+      "latitude": 40.305879,
+      "longitude": -3.827992
+    },
+    "speed_kmh": 135.64
+  },
+  {
+    "vehicle_id": "6702RAF",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-28T09:04:22.733569",
+    "location": {
+      "latitude": 40.370946,
+      "longitude": -3.704299
+    },
+    "speed_kmh": 36.74
+  },
+  {
+    "vehicle_id": "2555IBP",
+    "event_type": "normal",
+    "timestamp": "2025-07-28T05:41:22.733586",
+    "location": {
+      "latitude": 40.389297,
+      "longitude": -3.70068
+    },
+    "speed_kmh": 89.01
+  },
+  {
+    "vehicle_id": "1312YWT",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-25T10:22:22.733603",
+    "location": {
+      "latitude": 40.36583,
+      "longitude": -3.698483
+    },
+    "speed_kmh": 34.44
+  },
+  {
+    "vehicle_id": "3365CSK",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-29T03:06:22.733619",
+    "location": {
+      "latitude": 40.305643,
+      "longitude": -3.613534
+    },
+    "speed_kmh": 40.94
+  },
+  {
+    "vehicle_id": "8447GXW",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-30T05:30:22.733634",
+    "location": {
+      "latitude": 40.460752,
+      "longitude": -3.674403
+    },
+    "speed_kmh": 111.68
+  },
+  {
+    "vehicle_id": "4403ZQA",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-30T05:12:22.733650",
+    "location": {
+      "latitude": 40.442703,
+      "longitude": -3.873606
+    },
+    "speed_kmh": 38.04
+  },
+  {
+    "vehicle_id": "4964ZNP",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-30T01:29:22.733668",
+    "location": {
+      "latitude": 40.40214,
+      "longitude": -3.863978
+    },
+    "speed_kmh": 122.46
+  },
+  {
+    "vehicle_id": "9690LGT",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-30T08:41:22.733683",
+    "location": {
+      "latitude": 40.342602,
+      "longitude": -3.703103
+    },
+    "speed_kmh": 29.71
+  },
+  {
+    "vehicle_id": "5187PGZ",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-23T19:25:22.733700",
+    "location": {
+      "latitude": 40.363856,
+      "longitude": -3.634904
+    },
+    "speed_kmh": 96.56
+  },
+  {
+    "vehicle_id": "1508YPN",
+    "event_type": "normal",
+    "timestamp": "2025-07-26T04:27:22.733717",
+    "location": {
+      "latitude": 40.403669,
+      "longitude": -3.647347
+    },
+    "speed_kmh": 75.58
+  },
+  {
+    "vehicle_id": "6181OGB",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-29T22:40:22.733733",
+    "location": {
+      "latitude": 40.46032,
+      "longitude": -3.678238
+    },
+    "speed_kmh": 57.12
+  },
+  {
+    "vehicle_id": "7687HSM",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-29T17:28:22.733748",
+    "location": {
+      "latitude": 40.333557,
+      "longitude": -3.708782
+    },
+    "speed_kmh": 133.39
+  },
+  {
+    "vehicle_id": "4319BWP",
+    "event_type": "normal",
+    "timestamp": "2025-07-26T06:20:22.733763",
+    "location": {
+      "latitude": 40.410138,
+      "longitude": -3.62127
+    },
+    "speed_kmh": 100.84
+  },
+  {
+    "vehicle_id": "1140QMD",
+    "event_type": "normal",
+    "timestamp": "2025-07-28T10:39:22.733778",
+    "location": {
+      "latitude": 40.493007,
+      "longitude": -3.648469
+    },
+    "speed_kmh": 88.54
+  },
+  {
+    "vehicle_id": "5853THT",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-28T04:43:22.733793",
+    "location": {
+      "latitude": 40.437796,
+      "longitude": -3.73325
+    },
+    "speed_kmh": 56.22
+  },
+  {
+    "vehicle_id": "7743CEO",
+    "event_type": "normal",
+    "timestamp": "2025-07-26T00:30:22.733808",
+    "location": {
+      "latitude": 40.393525,
+      "longitude": -3.765382
+    },
+    "speed_kmh": 28.54
+  },
+  {
+    "vehicle_id": "9802GYC",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-29T01:24:22.733825",
+    "location": {
+      "latitude": 40.415261,
+      "longitude": -3.794049
+    },
+    "speed_kmh": 20.15
+  },
+  {
+    "vehicle_id": "2250ZIG",
+    "event_type": "normal",
+    "timestamp": "2025-07-29T09:27:22.733842",
+    "location": {
+      "latitude": 40.367996,
+      "longitude": -3.779602
+    },
+    "speed_kmh": 130.84
+  },
+  {
+    "vehicle_id": "2007SHP",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-30T12:25:22.733858",
+    "location": {
+      "latitude": 40.498722,
+      "longitude": -3.734212
+    },
+    "speed_kmh": 76.25
+  },
+  {
+    "vehicle_id": "7424UGD",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-30T02:43:22.733874",
+    "location": {
+      "latitude": 40.334379,
+      "longitude": -3.701389
+    },
+    "speed_kmh": 25.43
+  },
+  {
+    "vehicle_id": "6791DDT",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-30T14:48:22.733890",
+    "location": {
+      "latitude": 40.49021,
+      "longitude": -3.826981
+    },
+    "speed_kmh": 82.1
+  },
+  {
+    "vehicle_id": "2405BMA",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-24T17:43:22.733904",
+    "location": {
+      "latitude": 40.325264,
+      "longitude": -3.780863
+    },
+    "speed_kmh": 55.29
+  },
+  {
+    "vehicle_id": "7486PXL",
+    "event_type": "harsh_braking",
+    "timestamp": "2025-07-26T17:30:22.733920",
+    "location": {
+      "latitude": 40.421391,
+      "longitude": -3.754185
+    },
+    "speed_kmh": 128.53
+  },
+  {
+    "vehicle_id": "8462FZE",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-29T00:33:22.733934",
+    "location": {
+      "latitude": 40.329786,
+      "longitude": -3.649085
+    },
+    "speed_kmh": 41.89
+  },
+  {
+    "vehicle_id": "8379DOI",
+    "event_type": "normal",
+    "timestamp": "2025-07-24T21:33:22.733948",
+    "location": {
+      "latitude": 40.48879,
+      "longitude": -3.719325
+    },
+    "speed_kmh": 84.7
+  },
+  {
+    "vehicle_id": "7392VRR",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-25T22:46:22.733963",
+    "location": {
+      "latitude": 40.359756,
+      "longitude": -3.680704
+    },
+    "speed_kmh": 32.8
+  },
+  {
+    "vehicle_id": "9154QIR",
+    "event_type": "normal",
+    "timestamp": "2025-07-28T19:59:22.733979",
+    "location": {
+      "latitude": 40.367092,
+      "longitude": -3.842192
+    },
+    "speed_kmh": 76.99
+  },
+  {
+    "vehicle_id": "8369EHY",
+    "event_type": "overspeeding",
+    "timestamp": "2025-07-27T09:16:22.733994",
+    "location": {
+      "latitude": 40.493799,
+      "longitude": -3.706915
+    },
+    "speed_kmh": 51.97
+  },
+  {
+    "vehicle_id": "5138RSQ",
+    "event_type": "sharp_turn",
+    "timestamp": "2025-07-26T10:32:22.734010",
+    "location": {
+      "latitude": 40.315102,
+      "longitude": -3.845528
+    },
+    "speed_kmh": 24.12
+  }
+]
